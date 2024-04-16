@@ -9,9 +9,16 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace CatalogLivros {
-    public partial class Form1 : Form {
-        public Form1() {
+    public partial class FrmLogin : Form {
+        public FrmLogin() {
             InitializeComponent();
         }
+        private void FrmLogin_Load(object sender, EventArgs e) {
+
+        }
+        private void FrmLogin_Btn_Sair_Click(object sender, EventArgs e) {
+            Close();
+        }
+
     }
 }
